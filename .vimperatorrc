@@ -2,8 +2,8 @@
 
 map <silent> \\b :b#<CR>
 nmap <silent> \\b :b#<CR>
-set runtimepath=/home/jkeil/.vimperator
+set runtimepath=/home/jochen/.vimperator
 vmap <silent> \\b :b#<CR>
-source! /home/jkeil/.vimperatorrc.local
+source! /home/jochen/.vimperatorrc.local
 
 " vim: set ft=vimperator:
