@@ -1,9 +1,7 @@
 "2.1 (created: 2009/05/21 13:13:06)
 
 map <silent> \\b :b#<CR>
-nmap <silent> \\b :b#<CR>
 set runtimepath=$HOME/.vimperator
-vmap <silent> \\b :b#<CR>
 source! $HOME/.vimperatorrc.local
 
 " vim: set ft=vimperator:
