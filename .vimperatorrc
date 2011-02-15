@@ -4,6 +4,8 @@ map <silent> \\a :b#<CR>
 map <silent> <C-j> 3j
 map <silent> <C-k> 3k
 
+set showtabline=1
+
 set runtimepath=$HOME/.vimperator
 source! $HOME/.vimperatorrc.local
 
