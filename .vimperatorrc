@@ -4,6 +4,11 @@ map <silent> \\a :b#<CR>
 map <silent> <C-j> 3j
 map <silent> <C-k> 3k
 
+" Show or hide Firefox's GUI elements like
+" the menu bar, toolbars or the tab bar.
+" gui=menu, tabs, navigation, bookmarks, addons
+set gui=none,tabs
+
 " When on, it blurs any textbox which often is
 " automatically focused on page load.
 set focuscontent
