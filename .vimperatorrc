@@ -3,6 +3,7 @@
 map <silent> \\a :b#<CR>
 map <silent> <C-j> 3j
 map <silent> <C-k> 3k
+map <silent> \\st :tabopen about:sync-tabs<CR>
 
 set tabnumbers
 
