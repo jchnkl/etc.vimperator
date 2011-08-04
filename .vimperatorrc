@@ -26,9 +26,9 @@ autocmd VimperatorEnter .* -js Weave.Service.sync();
 "autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) -js alert("LocationChange");
 "autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) -js alert("LocationChange");
 
-autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Esc>
-autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Esc>
-autocmd PageLoadPre .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Esc>
+autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
+autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
+autocmd PageLoadPre .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
 
 " command P panorama
 
