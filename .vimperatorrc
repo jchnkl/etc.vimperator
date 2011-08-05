@@ -33,7 +33,7 @@ autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict
 autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
 autocmd PageLoadPre .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
 
-autocmd PageLoad .* js sortTabByDomain("<url>");
+" autocmd PageLoadPre .* js sortTabByDomain("<url>");
 
 javascript << EOJS
 
