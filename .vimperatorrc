@@ -1,4 +1,4 @@
-
+" settings
 set tabnumbers
 
 " Show or hide Firefox's GUI elements like
@@ -10,6 +10,7 @@ set gui=none,tabs
 " automatically focused on page load.
 set focuscontent
 
+" mappings
 map <silent> A :b#<CR>
 map <silent> J 3j
 map <silent> K 3k
