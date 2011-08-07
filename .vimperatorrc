@@ -1,11 +1,3 @@
-map <silent> A :b#<CR>
-map <silent> J 3j
-map <silent> K 3k
-map <silent> ps :panorama switch <Tab>
-map <silent> pa :panorama add! 
-map <silent> pu :panorama pushtab <Tab>
-map <silent> pr :panorama remove<CR>
-map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
 
 set tabnumbers
 
@@ -18,7 +10,17 @@ set gui=none,tabs
 " automatically focused on page load.
 set focuscontent
 
+map <silent> A :b#<CR>
+map <silent> J 3j
+map <silent> K 3k
 map <silent> S :tabopen about:sync-tabs<CR>
+" panorama mappings
+map <silent> ps :panorama switch <Tab>
+map <silent> pa :panorama add! 
+map <silent> pu :panorama pushtab <Tab>
+map <silent> pr :panorama remove<CR>
+map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
+
 " clear autocmds
 autocmd!
 
