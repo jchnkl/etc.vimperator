@@ -22,6 +22,8 @@ map <silent> pa :panorama add!
 map <silent> pu :panorama pushtab <Tab>
 map <silent> pr :panorama remove<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
+map <silent> pv <C-S-e>
+map <silent> p <Nop>
 
 " clear autocmds
 autocmd!
