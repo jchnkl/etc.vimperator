@@ -11,6 +11,7 @@ set gui=none,tabs
 set focuscontent
 
 " mappings
+mapclear
 map <silent> A :b#<CR>
 map <silent> J 3j
 map <silent> K 3k
