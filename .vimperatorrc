@@ -1,21 +1,12 @@
-"2.1 (created: 2009/05/21 13:13:06)
-
-" map <silent> \\a :b#<CR>
 map <silent> A :b#<CR>
 map <silent> J 3j
-" map <silent> <C-j> 3j
 map <silent> K 3k
-" map <silent> <C-k> 3k
 map <silent> \\st :tabopen about:sync-tabs<CR>
-" panorama mappings
 map <silent> ps :panorama switch <Tab>
 map <silent> pa :panorama add! 
 map <silent> pu :panorama pushtab <Tab>
 map <silent> pr :panorama remove<CR>
-"map <silent> <C-r> :panorama remove<CR>
-" map <silent> <C-a> :js sortTabByDomain(gLastValidURLStr);<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
-" map <silent> xr d
 
 set tabnumbers
 
