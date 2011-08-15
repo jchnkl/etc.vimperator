@@ -29,13 +29,9 @@ map <silent> p <Nop>
 autocmd!
 
 autocmd VimperatorEnter .* -js Weave.Service.sync();
-" autocmd LocationChange (google\..*/ig.*|dict\.leo\.org) :normal <Esc>
-"autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) -js alert("LocationChange");
-"autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) -js alert("LocationChange");
-
-autocmd LocationChange .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
-autocmd PageLoad .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
-autocmd PageLoadPre .*(google..*\/ig.*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) :normal <Enter>
+autocmd LocationChange .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
+autocmd PageLoad .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
+autocmd PageLoadPre .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
 
 " autocmd PageLoadPre .* js sortTabByDomain("<url>");
 
