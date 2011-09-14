@@ -29,9 +29,6 @@ map <silent> p <Nop>
 autocmd!
 
 autocmd VimperatorEnter .* -js Weave.Service.sync();
-autocmd LocationChange .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
-autocmd PageLoad .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
-autocmd PageLoadPre .*(google..*|.*portal.sparkasse-nuernberg.de.*|dict\.leo\.org) <Esc>
 
 " autocmd PageLoadPre .* js sortTabByDomain("<url>");
 
