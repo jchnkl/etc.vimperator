@@ -22,8 +22,8 @@ map <silent> p <Nop>
 " panorama mappings
 map <silent> ps :panorama switch <Tab>
 map <silent> pa :panorama add! 
-map <silent> pu :panorama pushtab <Tab>
-map <silent> pr :panorama remove<CR>
+map <silent> pm :panorama pushtab <Tab>
+map <silent> pd :panorama remove<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
 map <silent> pv <C-S-e>
 
