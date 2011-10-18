@@ -27,6 +27,9 @@ map <silent> pd :panorama remove<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
 map <silent> pv <C-S-e>
 
+imap <silent> <C-n> <Esc>gt
+imap <silent> <C-p> <Esc>gT
+
 " TODO:
 " bind rename for panorama
 " alternate tabgroup switch
