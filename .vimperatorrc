@@ -16,6 +16,9 @@ map <silent> A :b#<CR>
 map <silent> <C-j> 3j
 map <silent> <C-k> 3k
 map <silent> S :tabopen about:sync-tabs<CR>
+" remap p(aste)
+map <silent> p P
+map <silent> p <Nop>
 " panorama mappings
 map <silent> ps :panorama switch <Tab>
 map <silent> pa :panorama add! 
@@ -23,7 +26,10 @@ map <silent> pu :panorama pushtab <Tab>
 map <silent> pr :panorama remove<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
 map <silent> pv <C-S-e>
-map <silent> p <Nop>
+
+" TODO:
+" bind rename for panorama
+" alternate tabgroup switch
 
 " clear autocmds
 autocmd!
