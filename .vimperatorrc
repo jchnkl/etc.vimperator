@@ -37,6 +37,7 @@ imap <silent> <C-p> <Esc>gT
 " clear autocmds
 autocmd!
 
+autocmd DOMLoad .* <Esc>
 autocmd VimperatorEnter .* -js Weave.Service.sync();
 
 " autocmd PageLoadPre .* js sortTabByDomain("<url>");
