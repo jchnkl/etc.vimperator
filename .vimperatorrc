@@ -13,8 +13,8 @@ set focuscontent
 " mappings
 mapclear
 map <silent> A :b#<CR>
-map <silent> <C-j> 3j
-map <silent> <C-k> 3k
+map <silent> <C-e> 3j
+map <silent> <C-y> 3k
 map <silent> S :tabopen about:sync-tabs<CR>
 " remap p(aste)
 map <silent> p P
