@@ -27,6 +27,12 @@ map <silent> pd :panorama remove<CR>
 map <silent> pp :js sortTabByDomain(gLastValidURLStr);<CR>
 map <silent> pv <C-S-e>
 
+map <silent> <C-S-n> :tabmove +1<CR>
+map <silent> <C-S-p> :tabmove -1<CR>
+
+cmap <silent> <C-n> <Down>
+cmap <silent> <C-p> <Up>
+
 imap <silent> <C-n> <Esc>gt
 imap <silent> <C-p> <Esc>gT
 
