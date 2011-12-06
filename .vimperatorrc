@@ -36,6 +36,13 @@ cmap <silent> <C-p> <Up>
 imap <silent> <C-n> <Esc>gt
 imap <silent> <C-p> <Esc>gT
 
+imap <silent> <C-j> <Down>
+imap <silent> <C-k> <Up>
+imap <silent> <C-h> <Left>
+imap <silent> <C-l> <Right>
+imap <silent> <C-S-h> <Home>
+imap <silent> <C-S-l> <End>
+
 " TODO:
 " bind rename for panorama
 " alternate tabgroup switch
