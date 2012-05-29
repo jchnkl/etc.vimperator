@@ -16,6 +16,7 @@ map <silent> A :b#<CR>
 map <silent> <C-e> 3j
 map <silent> <C-y> 3k
 map <silent> S :tabopen about:sync-tabs<CR>
+
 " remap p(aste)
 map <silent> p P
 map <silent> p <Nop>
