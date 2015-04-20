@@ -46,6 +46,11 @@ imap <silent> <C-l> <Right>
 imap <silent> <C-S-h> <Home>
 imap <silent> <C-S-l> <End>
 
+nmap e 3j
+nmap y 3k
+
+nnoremap Y y
+
 " TODO:
 " bind rename for panorama
 " alternate tabgroup switch
