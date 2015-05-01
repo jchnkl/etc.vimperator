@@ -63,7 +63,15 @@ autocmd VimperatorEnter .* -js Weave.Service.sync();
 
 " autocmd PageLoadPre .* js sortTabByDomain("<url>");
 
+command! -description 'Toggle between document and custom font' togglefont :js togglefont()
+
 javascript << EOJS
+
+function togglefont()
+{
+  let pref = 'browser.display.use_document_fonts';
+  gPrefService.setIntPref(pref, gPrefService.getIntPref(pref) == 1 ? 0 : 1);
+}
 
 function sortTabByDomain( url ) {
   var groupName = getBareDomain( url );
