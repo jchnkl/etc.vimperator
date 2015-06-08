@@ -10,6 +10,8 @@ set gui=none,tabs
 " automatically focused on page load.
 set focuscontent
 
+set editor='urxvt -e vim'
+
 " mappings
 mapclear
 map <silent> A :b#<CR>
