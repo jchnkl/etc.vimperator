@@ -12,14 +12,45 @@ set focuscontent
 
 set editor='urxvt -e vim'
 
+set! font.default.x-western="serif"
+set! font.minimum-size.x-western=14
+set! font.name.monospace.x-western="xos4 Terminus"
+set! font.name.sans-serif.x-western="DejaVu Sans"
+set! font.name.serif.x-western="EB Garamond"
+set! font.size.fixed.x-western=14
+
 set! browser.panorama.animate_zoom=false
 set! browser.tabs.loadBookmarksInBackground=true
 set! browser.tabs.loadDivertedInBackground=true
+
 set! layout.word_select.stop_at_punctuation=true
 
 " Invert text zoom
 set! mousewheel.with_control.delta_multiplier_x=-100
 set! mousewheel.with_control.delta_multiplier_y=-100
+
+set! browser.display.use_document_fonts=0
+set! browser.tabs.warnOnClose=false
+set! extensions.dft.backup_use_document_fonts=1
+
+set! extensions.translator.hotkey.input=false
+set! extensions.translator.hotkey.page=false
+set! extensions.translator.hotkey.translate=false
+set! extensions.translator.languages.selected="en,de"
+set! extensions.translator.translate.button=false
+
+set! extensions.treestyletab.dropLinksOnTab.behavior=1
+set! extensions.treestyletab.show.context-item-removeDescendantTabs=true
+set! extensions.treestyletab.tabbar.position="right"
+set! extensions.treestyletab.tabbar.style="flat"
+set! extensions.treestyletab.tabbar.width=190
+
+set! noscript.notify.hide=true
+set! noscript.notify.hideDelay=1
+
+" set! services.sync.account=""
+" set! services.sync.username=""
+" set! services.sync.client.name=""
 
 " mappings
 mapclear
