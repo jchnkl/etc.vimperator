@@ -17,6 +17,10 @@ set! browser.tabs.loadBookmarksInBackground=true
 set! browser.tabs.loadDivertedInBackground=true
 set! layout.word_select.stop_at_punctuation=true
 
+" Invert text zoom
+set! mousewheel.with_control.delta_multiplier_x=-100
+set! mousewheel.with_control.delta_multiplier_y=-100
+
 " mappings
 mapclear
 map <silent> A :b#<CR>
