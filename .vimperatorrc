@@ -12,6 +12,11 @@ set focuscontent
 
 set editor='urxvt -e vim'
 
+set! browser.panorama.animate_zoom=false
+set! browser.tabs.loadBookmarksInBackground=true
+set! browser.tabs.loadDivertedInBackground=true
+set! layout.word_select.stop_at_punctuation=true
+
 " mappings
 mapclear
 map <silent> A :b#<CR>
