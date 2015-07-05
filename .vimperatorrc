@@ -12,6 +12,9 @@ set focuscontent
 
 set editor='urxvt -e vim'
 
+set! general.autoScrool=true
+set! general.smoothScrool=true
+
 set! font.default.x-western="serif"
 set! font.minimum-size.x-western=14
 set! font.name.monospace.x-western="xos4 Terminus"
