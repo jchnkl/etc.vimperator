@@ -41,6 +41,10 @@ set! layout.word_select.stop_at_punctuation=true
 set! mousewheel.with_control.delta_multiplier_x=-100
 set! mousewheel.with_control.delta_multiplier_y=-100
 
+set! extensions.nosquint.fullZoomLevel=100
+set! extensions.nosquint.zoomImages=false
+set! extensions.nosquint.wheelZoomInvert=false
+
 set! browser.display.use_document_fonts=0
 set! browser.tabs.warnOnClose=false
 set! extensions.dft.backup_use_document_fonts=1
