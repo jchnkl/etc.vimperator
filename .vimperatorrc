@@ -12,8 +12,8 @@ set focuscontent
 
 set editor='urxvt -e vim'
 
-set! general.autoScrool=true
-set! general.smoothScrool=true
+set! general.autoScroll=true
+set! general.smoothScroll=true
 
 set! font.default.x-western="serif"
 set! font.name.serif.x-western="EB Garamond"
