@@ -17,7 +17,7 @@ set! general.smoothScroll=true
 
 set! font.default.x-western="serif"
 set! font.name.serif.x-western="EB Garamond"
-set! font.name.sans-serif.x-western="DejaVu Sans"
+set! font.name.sans-serif.x-western="EB Garamond"
 set! font.name.monospace.x-western="Terminus"
 set! font.size.variable.x-western=16
 set! font.size.fixed.x-western=14
@@ -25,7 +25,7 @@ set! font.minimum-size.x-western=0
 
 set! font.default.x-unicode="serif"
 set! font.name.serif.x-unicode="EB Garamond"
-set! font.name.sans-serif.x-unicode="DejaVu Sans"
+set! font.name.sans-serif.x-unicode="EB Garamond"
 set! font.name.monospace.x-unicode="Terminus"
 set! font.size.variable.x-western=16
 set! font.size.fixed.x-unicode=14
@@ -50,7 +50,6 @@ set! extensions.nosquint.zoomIncrement=5
 
 set! browser.display.use_document_fonts=0
 set! browser.tabs.warnOnClose=false
-set! extensions.dft.backup_use_document_fonts=1
 
 set! extensions.translator.hotkey.input=false
 set! extensions.translator.hotkey.page=false
