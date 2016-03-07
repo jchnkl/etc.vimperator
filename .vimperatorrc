@@ -15,6 +15,12 @@ set editor='urxvt -e vim'
 set! general.autoScroll=true
 set! general.smoothScroll=true
 
+
+" new font rendering engine does not support bitmap fonts anymore
+" dirty workaround, as of FF 44
+" https://bug635044.bugzilla.mozilla.org/show_bug.cgi?id=1243194
+set! gfx.font_rendering.fontconfig.fontlist.enabled=false
+
 set! font.default.x-western="serif"
 set! font.name.serif.x-western="EB Garamond"
 set! font.name.sans-serif.x-western="EB Garamond"
