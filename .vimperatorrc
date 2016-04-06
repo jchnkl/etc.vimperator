@@ -25,7 +25,7 @@ set! font.default.x-western="serif"
 set! font.name.serif.x-western="EB Garamond"
 set! font.name.sans-serif.x-western="EB Garamond"
 set! font.name.monospace.x-western="Terminus"
-set! font.size.variable.x-western=16
+set! font.size.variable.x-western=18
 set! font.size.fixed.x-western=14
 set! font.minimum-size.x-western=0
 
@@ -33,7 +33,7 @@ set! font.default.x-unicode="serif"
 set! font.name.serif.x-unicode="EB Garamond"
 set! font.name.sans-serif.x-unicode="EB Garamond"
 set! font.name.monospace.x-unicode="Terminus"
-set! font.size.variable.x-western=16
+set! font.size.variable.x-western=18
 set! font.size.fixed.x-unicode=14
 set! font.minimum-size.x-unicode=0
 
