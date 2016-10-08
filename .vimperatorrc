@@ -202,4 +202,8 @@ EOJS
 set runtimepath=$HOME/.vimperator
 source! $HOME/.vimperatorrc.local
 
+" workaround for completions not working bug
+" https://github.com/vimperator/vimperator-labs/issues/590
+js services.services.autoCompleteSearch.class_="@mozilla.org/autocomplete/search;1?name=unifiedcomplete"
+
 " vim: set ft=vimperator:
