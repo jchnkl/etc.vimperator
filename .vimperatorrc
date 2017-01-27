@@ -1,8 +1,6 @@
 " settings
 set tabnumbers
 
-set hintchars=jkl;asdfghyuiopqwertnmzxcvb
-
 " Show or hide Firefox's GUI elements like
 " the menu bar, toolbars or the tab bar.
 " gui=menu, tabs, navigation, bookmarks, addons
