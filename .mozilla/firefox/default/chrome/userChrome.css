@@ -1,0 +1,27 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#liberator-statusline toolbarbutton > * {
+  margin-top: -5px;
+  margin-bottom: -4px;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+/* #liberator-bottombar toolbarbutton { */
+/*   min-height: 20px; */
+/*   padding: 0; */
+/*   margin: 0; */
+/* } */
+
+/* /* #liberator-statusline toolbarbutton .toolbarbutton-icon */ */
+/* #liberator-statusline toolbarbutton > * { */
+/*   margin-top: -6px; */
+/*   margin-right: -9px; */
+/*   margin-bottom: -7px; */
+/*   margin-left: -9px; */
+/* } */
+
+/* #liberator-statusline toolbarbutton { */
+/*   -moz-appearance: none !important; */
+/*   border: 0px solid none; */
+/* } */
