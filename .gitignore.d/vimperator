@@ -1,3 +1,9 @@
 *
+!/.gitignore.d
 !/.gitignore.d/vimperator
+!/.mozilla
+!/.mozilla/firefox
+!/.mozilla/firefox/default
+!/.mozilla/firefox/default/chrome
+!/.mozilla/firefox/default/chrome/userChrome.css
 !/.vimperatorrc
